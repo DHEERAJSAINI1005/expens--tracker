@@ -15,7 +15,7 @@ import {
 import { API_BASE_URL } from "./constants/constant";
 
 export default function LoginPage() {
-  const [form, setForm] = useState({ email: "admin@yopmail.com", password: "password" });
+  const [form, setForm] = useState({ email: "", password: "" });
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
   const router = useRouter();
